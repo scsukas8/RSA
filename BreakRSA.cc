@@ -11,9 +11,9 @@ using namespace std;
 
 
 mpz_class factor(mpz_class n) {
-    /* This function is an implementation of Richard Brent's 
-        variant of Pollard Rho's factoring algorithm.
-        
+    /* 
+    This function is an implementation of Richard Brent's 
+    variant of Pollard's rho factoring algorithm.
     */
 
     // The algorithm's check for division by two is ignored
